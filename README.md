@@ -1,2 +1,1 @@
-# SubPetalApp
-iOS App for subsonic music
+# SubPetal

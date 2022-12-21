@@ -1,0 +1,22 @@
+{
+  "name": "SFBAudioEngine",
+  "version": "1.0.0",
+  "license": "MIT",
+  "requires_arc": true,
+  "source": {
+    "path": "DevelopmentPods/SFBAudioEngine"
+  },
+  "summary": "SFBAudioEngine",
+  "homepage": "https://github.com/sbooth/SFBAudioEngine",
+  "authors": {
+    "sbooth": "https://github.com/sbooth"
+  },
+  "platforms": {
+    "ios": "15.0",
+    "tvos": "15.0"
+  },
+  "source_files": "**/*.{h,swift,mm,cpp}",
+  "vendored_frameworks": "XCFrameworks/*.xcframework",
+  "exclude_files": "XCFrameworks",
+  "libraries": "c++"
+}

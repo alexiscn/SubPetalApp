@@ -1,0 +1,6 @@
+framework module Pods_SubPetal_tvOS {
+  umbrella header "Pods-SubPetal-tvOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

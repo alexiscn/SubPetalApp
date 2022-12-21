@@ -1,0 +1,70 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Alamofire",
+        "repositoryURL": "https://github.com/Alamofire/Alamofire",
+        "state": {
+          "branch": null,
+          "revision": "354dda32d89fc8cd4f5c46487f64957d355f53d8",
+          "version": "5.6.1"
+        }
+      },
+      {
+        "package": "Defaults",
+        "repositoryURL": "https://github.com/sindresorhus/Defaults",
+        "state": {
+          "branch": "main",
+          "revision": "d1e2109fc99a4471bc0193ae3f521fcf07695153",
+          "version": null
+        }
+      },
+      {
+        "package": "Kingfisher",
+        "repositoryURL": "https://github.com/onevcat/Kingfisher",
+        "state": {
+          "branch": null,
+          "revision": "59eb199fdb8dd47733624e8b0277822d0232579e",
+          "version": "7.2.2"
+        }
+      },
+      {
+        "package": "LocalizedStringKit",
+        "repositoryURL": "https://github.com/microsoft/LocalizedStringKit",
+        "state": {
+          "branch": null,
+          "revision": "30003d43568c07edd4ed2a74ace057ea540c984e",
+          "version": "0.2.5"
+        }
+      },
+      {
+        "package": "MBProgressHUD",
+        "repositoryURL": "https://github.com/jdg/MBProgressHUD",
+        "state": {
+          "branch": null,
+          "revision": "bca42b801100b2b3a4eda0ba8dd33d858c780b0d",
+          "version": "1.2.0"
+        }
+      },
+      {
+        "package": "MJRefresh",
+        "repositoryURL": "https://github.com/CoderMJLee/MJRefresh",
+        "state": {
+          "branch": null,
+          "revision": "f9db27ea41c7e3f5002be57bbf8fd5bf30f7346e",
+          "version": "3.7.5"
+        }
+      },
+      {
+        "package": "Tiercel",
+        "repositoryURL": "https://github.com/Danie1s/Tiercel",
+        "state": {
+          "branch": null,
+          "revision": "203ef077ed3887cb8cb5729446ef018f890a8a9a",
+          "version": "3.2.5"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

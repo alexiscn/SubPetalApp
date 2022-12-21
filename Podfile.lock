@@ -1,0 +1,18 @@
+PODS:
+  - ZFPlayer/ControlView (4.0.2):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (4.0.2)
+
+DEPENDENCIES:
+  - ZFPlayer/ControlView (from `DevelopmentPods/ZFPlayer`)
+
+EXTERNAL SOURCES:
+  ZFPlayer:
+    :path: DevelopmentPods/ZFPlayer
+
+SPEC CHECKSUMS:
+  ZFPlayer: 42a50fc70c34324773b9a56eaa8082b5f9b99c44
+
+PODFILE CHECKSUM: 910cc485285326bbe06ef6fe9a637cdc5deda015
+
+COCOAPODS: 1.11.3

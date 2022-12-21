@@ -1,0 +1,22 @@
+{
+  "images" : [
+    {
+      "filename" : "music_cover_light_300x300_.svg",
+      "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "music_cover_dark_300x300_.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

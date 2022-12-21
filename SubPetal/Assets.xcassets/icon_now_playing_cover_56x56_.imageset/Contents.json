@@ -1,0 +1,22 @@
+{
+  "images" : [
+    {
+      "filename" : "icon_now_playing_cover_light_56x56_.pdf",
+      "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "icon_now_playing_cover_dark_56x56_.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
