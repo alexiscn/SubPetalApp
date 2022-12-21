@@ -9,10 +9,10 @@ An iOS app for [Subsonic](http://www.subsonic.org/pages/index.jsp) .
 
 # Screenshots
 
-![](Assets/01.png)
+<img src="Assets/01.png" width=300 />
 
-![](Assets/02.png)
+<img src="Assets/02.png" width=300 />
 
 # License
 
-[MIT license](LICENSE) .
+[MIT license](LICENSE)
