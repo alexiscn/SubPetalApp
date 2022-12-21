@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		13163E62DE879061474CE2AD /* Pods_SubPetal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF6362556D3A62A76377F1F /* Pods_SubPetal.framework */; };
-		1806A8E32855A114005D96AE /* LocalizedStringKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1806A8E22855A114005D96AE /* LocalizedStringKit */; };
+		1801C41129533BDC006E8DCD /* SubsonicKit in Frameworks */ = {isa = PBXBuildFile; productRef = 1801C41029533BDC006E8DCD /* SubsonicKit */; };
+		1801C41429533C66006E8DCD /* Defaults in Frameworks */ = {isa = PBXBuildFile; productRef = 1801C41329533C66006E8DCD /* Defaults */; };
 		1806A8E52855C72F005D96AE /* ContextMenuDetailAlbumHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806A8E42855C72F005D96AE /* ContextMenuDetailAlbumHandler.swift */; };
 		1806A8E72855D4BD005D96AE /* SimilarSongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1806A8E62855D4BD005D96AE /* SimilarSongsViewController.swift */; };
 		183B30C62854970600DC11BA /* ContextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183B30C52854970600DC11BA /* ContextViewController.swift */; };
@@ -33,6 +34,7 @@
 		18B31798284CED4E005288FE /* AudioPlayerActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B31797284CED4E005288FE /* AudioPlayerActionView.swift */; };
 		18B3179B284CEDD4005288FE /* LyricsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3179A284CEDD4005288FE /* LyricsParser.swift */; };
 		18B3179E284CEDFD005288FE /* Lyrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3179D284CEDFD005288FE /* Lyrics.swift */; };
+		18C653B429533C8500853D89 /* AudioStreaming in Frameworks */ = {isa = PBXBuildFile; productRef = 18C653B329533C8500853D89 /* AudioStreaming */; };
 		18E80ADD2848F46A00F9C5B5 /* AlbumSongListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E80ADC2848F46A00F9C5B5 /* AlbumSongListCell.swift */; };
 		18E80AE028497A3700F9C5B5 /* SongListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E80ADF28497A3700F9C5B5 /* SongListCell.swift */; };
 		18E80AE628498BE200F9C5B5 /* AlbumProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E80AE528498BE200F9C5B5 /* AlbumProfileHeaderView.swift */; };
@@ -50,7 +52,6 @@
 		18F2560D284A356A00283541 /* ArtistProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2560C284A356A00283541 /* ArtistProfileViewController.swift */; };
 		18F25610284AE2EF00283541 /* ArtistListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F2560F284AE2EF00283541 /* ArtistListCell.swift */; };
 		18F25616284B83A800283541 /* ArtistProfileHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F25615284B83A800283541 /* ArtistProfileHeaderCell.swift */; };
-		FA135A112851EC2E003F9612 /* AudioStreaming in Frameworks */ = {isa = PBXBuildFile; productRef = FA135A102851EC2E003F9612 /* AudioStreaming */; };
 		FA135A142851F933003F9612 /* PlaylistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA135A132851F933003F9612 /* PlaylistsViewController.swift */; };
 		FA135A16285205E8003F9612 /* PlaylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA135A15285205E8003F9612 /* PlaylistViewController.swift */; };
 		FA135A1828520764003F9612 /* PlaylistHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA135A1728520764003F9612 /* PlaylistHeaderView.swift */; };
@@ -71,7 +72,6 @@
 		FA6681E5284DA30E00EFC15A /* MulticastDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6681E4284DA30D00EFC15A /* MulticastDelegate.swift */; };
 		FA6681E8284DA3C800EFC15A /* NowPlayingCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6681E7284DA3C800EFC15A /* NowPlayingCenter.swift */; };
 		FA6681EB284DE2EF00EFC15A /* LibraryCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6681EA284DE2EF00EFC15A /* LibraryCache.swift */; };
-		FA9591F028470ED3008C4F5C /* Defaults in Frameworks */ = {isa = PBXBuildFile; productRef = FA9591EF28470ED3008C4F5C /* Defaults */; };
 		FA9591F328470F3E008C4F5C /* RootTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9591F228470F3E008C4F5C /* RootTabViewController.swift */; };
 		FA9591F728470F8E008C4F5C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9591F628470F8E008C4F5C /* SettingsViewController.swift */; };
 		FA9591FB28470FE4008C4F5C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9591FA28470FE3008C4F5C /* LoginViewController.swift */; };
@@ -131,7 +131,6 @@
 		183ED10A28464E3B00B7BADE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		183ED10D28464E3B00B7BADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		183ED10F28464E3B00B7BADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18472FB7284651290063B575 /* SubsonicKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SubsonicKit; path = Packages/SubsonicKit; sourceTree = "<group>"; };
 		18472FB82846513D0063B575 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		18472FBC284651830063B575 /* AudioPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerViewController.swift; sourceTree = "<group>"; };
 		18472FC628479AEA0063B575 /* LibrarySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibrarySection.swift; sourceTree = "<group>"; };
@@ -222,15 +221,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1806A8E32855A114005D96AE /* LocalizedStringKit in Frameworks */,
-				FA135A112851EC2E003F9612 /* AudioStreaming in Frameworks */,
+				18C653B429533C8500853D89 /* AudioStreaming in Frameworks */,
+				1801C41429533C66006E8DCD /* Defaults in Frameworks */,
 				FABACBF62851AD0D007D6B48 /* Tiercel in Frameworks */,
 				FA6681D12848B42300EFC15A /* MJRefresh in Frameworks */,
 				FA6681AB28487EB200EFC15A /* Kingfisher in Frameworks */,
-				FA9591F028470ED3008C4F5C /* Defaults in Frameworks */,
 				FA6681BF28489DDF00EFC15A /* MBProgressHUD in Frameworks */,
 				18472FC0284651D30063B575 /* SubsonicKit in Frameworks */,
 				13163E62DE879061474CE2AD /* Pods_SubPetal.framework in Frameworks */,
+				1801C41129533BDC006E8DCD /* SubsonicKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +302,6 @@
 		18472FB6284651290063B575 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				18472FB7284651290063B575 /* SubsonicKit */,
 				FAA807EC2851EB540065E9EA /* AudioStreaming */,
 			);
 			name = Packages;
@@ -537,13 +535,13 @@
 			name = SubPetal;
 			packageProductDependencies = (
 				18472FBF284651D30063B575 /* SubsonicKit */,
-				FA9591EF28470ED3008C4F5C /* Defaults */,
 				FA6681AA28487EB200EFC15A /* Kingfisher */,
 				FA6681BE28489DDF00EFC15A /* MBProgressHUD */,
 				FA6681D02848B42300EFC15A /* MJRefresh */,
 				FABACBF52851AD0D007D6B48 /* Tiercel */,
-				FA135A102851EC2E003F9612 /* AudioStreaming */,
-				1806A8E22855A114005D96AE /* LocalizedStringKit */,
+				1801C41029533BDC006E8DCD /* SubsonicKit */,
+				1801C41329533C66006E8DCD /* Defaults */,
+				18C653B329533C8500853D89 /* AudioStreaming */,
 			);
 			productName = SubPetal;
 			productReference = 183ED0FE28464E3B00B7BADE /* SubPetal.app */;
@@ -574,12 +572,12 @@
 			);
 			mainGroup = 183ED0F528464E3B00B7BADE;
 			packageReferences = (
-				FA9591EE28470ED3008C4F5C /* XCRemoteSwiftPackageReference "Defaults" */,
 				FA6681A928487EB200EFC15A /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				FA6681BD28489DDF00EFC15A /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
 				FA6681CF2848B42300EFC15A /* XCRemoteSwiftPackageReference "MJRefresh" */,
 				FABACBF42851AD0D007D6B48 /* XCRemoteSwiftPackageReference "Tiercel" */,
-				1806A8E12855A114005D96AE /* XCRemoteSwiftPackageReference "LocalizedStringKit" */,
+				1801C40F29533BDC006E8DCD /* XCRemoteSwiftPackageReference "SubsonicKit" */,
+				1801C41229533C66006E8DCD /* XCRemoteSwiftPackageReference "Defaults" */,
 			);
 			productRefGroup = 183ED0FF28464E3B00B7BADE /* Products */;
 			projectDirPath = "";
@@ -968,12 +966,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		1806A8E12855A114005D96AE /* XCRemoteSwiftPackageReference "LocalizedStringKit" */ = {
+		1801C40F29533BDC006E8DCD /* XCRemoteSwiftPackageReference "SubsonicKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/microsoft/LocalizedStringKit";
+			repositoryURL = "https://github.com/alexiscn/SubsonicKit";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.2.5;
+				branch = main;
+				kind = branch;
+			};
+		};
+		1801C41229533C66006E8DCD /* XCRemoteSwiftPackageReference "Defaults" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/Defaults";
+			requirement = {
+				branch = main;
+				kind = branch;
 			};
 		};
 		FA6681A928487EB200EFC15A /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
@@ -1000,14 +1006,6 @@
 				minimumVersion = 3.0.0;
 			};
 		};
-		FA9591EE28470ED3008C4F5C /* XCRemoteSwiftPackageReference "Defaults" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/sindresorhus/Defaults";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
 		FABACBF42851AD0D007D6B48 /* XCRemoteSwiftPackageReference "Tiercel" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Danie1s/Tiercel";
@@ -1019,16 +1017,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		1806A8E22855A114005D96AE /* LocalizedStringKit */ = {
+		1801C41029533BDC006E8DCD /* SubsonicKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 1806A8E12855A114005D96AE /* XCRemoteSwiftPackageReference "LocalizedStringKit" */;
-			productName = LocalizedStringKit;
+			package = 1801C40F29533BDC006E8DCD /* XCRemoteSwiftPackageReference "SubsonicKit" */;
+			productName = SubsonicKit;
+		};
+		1801C41329533C66006E8DCD /* Defaults */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1801C41229533C66006E8DCD /* XCRemoteSwiftPackageReference "Defaults" */;
+			productName = Defaults;
 		};
 		18472FBF284651D30063B575 /* SubsonicKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SubsonicKit;
 		};
-		FA135A102851EC2E003F9612 /* AudioStreaming */ = {
+		18C653B329533C8500853D89 /* AudioStreaming */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = AudioStreaming;
 		};
@@ -1046,11 +1049,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FA6681CF2848B42300EFC15A /* XCRemoteSwiftPackageReference "MJRefresh" */;
 			productName = MJRefresh;
-		};
-		FA9591EF28470ED3008C4F5C /* Defaults */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = FA9591EE28470ED3008C4F5C /* XCRemoteSwiftPackageReference "Defaults" */;
-			productName = Defaults;
 		};
 		FABACBF52851AD0D007D6B48 /* Tiercel */ = {
 			isa = XCSwiftPackageProductDependency;

@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/Alamofire/Alamofire",
         "state": {
           "branch": null,
-          "revision": "354dda32d89fc8cd4f5c46487f64957d355f53d8",
-          "version": "5.6.1"
+          "revision": "78424be314842833c04bc3bef5b72e85fff99204",
+          "version": "5.6.4"
         }
       },
       {
@@ -29,15 +29,6 @@
         }
       },
       {
-        "package": "LocalizedStringKit",
-        "repositoryURL": "https://github.com/microsoft/LocalizedStringKit",
-        "state": {
-          "branch": null,
-          "revision": "30003d43568c07edd4ed2a74ace057ea540c984e",
-          "version": "0.2.5"
-        }
-      },
-      {
         "package": "MBProgressHUD",
         "repositoryURL": "https://github.com/jdg/MBProgressHUD",
         "state": {
@@ -53,6 +44,15 @@
           "branch": null,
           "revision": "f9db27ea41c7e3f5002be57bbf8fd5bf30f7346e",
           "version": "3.7.5"
+        }
+      },
+      {
+        "package": "SubsonicKit",
+        "repositoryURL": "https://github.com/alexiscn/SubsonicKit",
+        "state": {
+          "branch": "main",
+          "revision": "afe670155593bbb0b519a6712aecc5322593537e",
+          "version": null
         }
       },
       {
